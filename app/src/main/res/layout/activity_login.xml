@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/pubg">
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:drawableStart="@drawable/ic_phone"
+        android:padding="20dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/nmhint"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        />
+
+
+    <EditText
+        android:id="@+id/pswrd"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:hint="@string/pswrdhint"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/phone"
+        app:layout_constraintStart_toStartOf="@id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintVertical_bias="0.123"
+        />
+    <Button
+        android:id="@id/loginbtn1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btncircle"
+        android:text="@string/login"
+        android:textSize="25sp"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        />
+
+    <Button
+        android:id="@+id/rgsterbtn1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rgstrbtn"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/loginbtn1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/loginbtn1"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn1"
+        app:layout_constraintVertical_bias="0.331"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

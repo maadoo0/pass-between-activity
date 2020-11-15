@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Apps Square</string>
+    <string name="welcome">Keep calm and Hello World!</string>
+    <string name="nmhint"> Phone (11 Number)</string>
+    <string name="pswrdhint">Password</string>
+    <string name="pswrd2">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Username</string>
+
+</resources>
